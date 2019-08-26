@@ -1,5 +1,5 @@
 test: a.out
-	time ./a.out 10000
+	time ./a.out
 
 a.out: main.c
 	$(CC) $<
